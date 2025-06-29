@@ -4,7 +4,7 @@ from flask import Flask, render_template, request, redirect, url_for, flash
 # Database Configuration
 MYSQL_HOST = 'localhost'
 MYSQL_USER = 'root'
-MYSQL_PASSWORD = 'SM03@apss' # enter your password
+MYSQL_PASSWORD = 'password' # enter your password
 
 MYSQL_DB = 'gymmanagement'
 
