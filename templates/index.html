@@ -14,9 +14,10 @@
             justify-content: center;
             align-items: center;
             min-height: 100vh;
-            background-image: url(https://wallpaperaccess.com/full/5595925.jpg);
+            background-image: url('{{ url_for("static", filename="5595925.jpg") }}');
             background-size: cover;
             background-position: center;
+            background-attachment: fixed;
         }
 
         .container {
@@ -51,6 +52,7 @@
             position: relative;
             overflow: hidden;
             cursor: pointer;
+            backdrop-filter: blur(10px);
         }
 
         .card:hover {
